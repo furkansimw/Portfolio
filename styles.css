@@ -250,7 +250,9 @@ ul {
   display: flex;
   margin-top: 2rem;
 }
-
+#home .content .upside .icons li {
+  margin-right: 10px;
+}
 #home .content .upside .icons svg:hover {
   fill: #147efb;
 }
