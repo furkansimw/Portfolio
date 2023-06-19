@@ -17,7 +17,7 @@ html {
 }
 body {
   overflow-x: hidden !important;
-  width: 100vw;
+  width: 100vw !important;
 }
 a,
 a:visited {
