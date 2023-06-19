@@ -8,7 +8,6 @@
   scrollbar-color: #8e8e8e #fff;
   scrollbar-width: thin;
   color: var(--primary-text-color);
-  max-width: 100vw !important;
 }
 :root {
   --primary-text-color: #2d2e32;
