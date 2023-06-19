@@ -16,7 +16,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 a,
 a:visited {
