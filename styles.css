@@ -523,7 +523,7 @@ ul {
 .box {
   display: flex;
   align-items: center;
-  margin-right: 1rem;
+  margin-right: 2rem !important;
 }
 
 .textx p {
