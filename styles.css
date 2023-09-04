@@ -13,11 +13,12 @@
   --primary-text-color: #2d2e32;
 }
 html {
+  overflow-x: hidden !important;
   scroll-behavior: smooth;
 }
 body {
+  width: 100vw;
   overflow-x: hidden !important;
-  width: 100vw !important;
 }
 a,
 a:visited {
@@ -573,4 +574,18 @@ span {
 }
 #footer .content div svg:hover {
   transform: scale(1.1);
+}
+
+@media screen and (max-width: 700px) {
+  .boxs {
+    flex-direction: column;
+    align-items: start !important;
+  }
+  .box:first-child {
+    margin-bottom: 2rem;
+  }
+}
+
+#footer p {
+  padding-right: 1rem;
 }
